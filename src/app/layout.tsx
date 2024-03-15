@@ -1,5 +1,6 @@
 import './globals.css';
 
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="h-screen w-screen dark">
-            <body className={`${font.className} size-full max-h-full max-w-full overflow-x-hidden bg-[#343D35FF]`}>{children}</body>
+            <body className={`${font.className} size-full max-h-full max-w-full overflow-x-hidden bg-[#343D35FF]`}>
+                {children}
+                <Analytics />
+            </body>
         </html>
     );
 }
