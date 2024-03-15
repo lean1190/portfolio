@@ -83,9 +83,11 @@ export default function Home() {
                                         <p className="text-tiny text-white/60">{project.description}</p>
                                     </div>
                                 </div>
-                                <Button className="min-w-32" radius="full" size="sm" href={project.githubUrl}>
-                                    <FaGithub size={20} /> Get the code
-                                </Button>
+                                <Link href={project.githubUrl} target="_blank">
+                                    <Button className="min-w-32" radius="full" size="sm">
+                                        <FaGithub size={20} /> Get the code
+                                    </Button>
+                                </Link>
                             </CardFooter>
                         </Card>
                     ))
