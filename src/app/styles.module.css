@@ -1,0 +1,17 @@
+@screen sm {
+    .quit-grid-area {
+        grid-area: 1 / 1 / 3 / 5;
+    }
+
+    .olivo-grid-area {
+        grid-area: 1 / 5 / 2 / 9;
+    }
+
+    .movies-grid-area {
+        grid-area: 1 / 9 / 2 / 13;
+    }
+
+    .thank-you-grid-area {
+        grid-area: 2 / 5 / 3 / 13;
+    }
+}
