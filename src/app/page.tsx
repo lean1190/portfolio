@@ -29,7 +29,7 @@ const projects: Project[] = [
         description: 'An example of a complex Next.js app for self-management',
         preview: '/olivo/preview.gif',
         video: '/olivo/video.mp4',
-        githubUrl: 'https://github.com/lean1190/manage-yourself',
+        githubUrl: 'https://github.com/olivorocksrotated/olivo',
         classes: 'olivo-grid-area'
     },
     {
