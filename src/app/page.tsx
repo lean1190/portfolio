@@ -26,7 +26,7 @@ const projects: Project[] = [
     },
     {
         title: 'Olivo',
-        description: 'An example of a complex Next.js app for self-management',
+        description: 'An example of a complex full-stack Next.js app for self-management',
         preview: '/olivo/preview.gif',
         video: '/olivo/video.mp4',
         githubUrl: 'https://github.com/olivorocksrotated/olivo',

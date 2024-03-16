@@ -7,6 +7,5 @@ const buildEslintCommand = (filenames) =>
 
 module.exports = {
     '*.{js,jsx,ts,tsx}': [buildEslintCommand],
-    '*.{ts,tsx}': [() => 'npx tsc --skipLibCheck --noEmit'],
-    '*.prisma': 'npx prisma format'
+    '*.{ts,tsx}': [() => 'npx tsc --skipLibCheck --noEmit']
 };
